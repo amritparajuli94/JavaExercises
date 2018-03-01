@@ -8,9 +8,9 @@ public class Main {
 
 		ArrayList<Vehicle> vehicle = new ArrayList<>();
 
-		Car c = new Car(2, 1339, "White", 5);
-		Motorcycle m = new Motorcycle(1, 125, "Blue", 4);
-		Boat b = new Boat(3, 1800, "Orange", 1);
+		Car c = new Car(24.99, 2, 1339, "White", 5);
+		Motorcycle m = new Motorcycle(14.99, 1, 125, "Blue", 4);
+		Boat b = new Boat(34.99, 3, 1800, "Orange", 1);
 
 		vehicle.add(c);
 		vehicle.add(m);
