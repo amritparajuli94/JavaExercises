@@ -1,24 +1,18 @@
 package garageExercise;
 
-import java.util.ArrayList;
-
 public class Main {
 
 	public static void main(String[] args) {
-
-		ArrayList<Vehicle> vehicle = new ArrayList<>();
 
 		Car c = new Car(24.99, 2, 1339, "White", 5);
 		Motorcycle m = new Motorcycle(14.99, 1, 125, "Blue", 4);
 		Boat b = new Boat(34.99, 3, 1800, "Orange", 1);
 
-		vehicle.add(c);
-		vehicle.add(m);
-		vehicle.add(b);
+		Garage.addVehicle(c);
+		Garage.addVehicle(m);
+		Garage.addVehicle(b);
 
-		for (int i = 0; i < vehicle.size(); i++) {
-			System.out.println(vehicle.get(i));
-		}
+		Garage.list();
 
 	}
 

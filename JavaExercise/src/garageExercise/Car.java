@@ -9,8 +9,8 @@ public class Car extends Vehicle {
 	}
 
 	public String toString() {
-		return "Vehicle ID is = " + id + " " + "has an engine size of = " + engine + "cc." + " " + "Vehicle is "
-				+ colour + " " + "colour" + " " + "and has" + " " + doorNumber + " doors." + " "
+		return "Vehicle ID is " + id + " " + "has an engine size of = " + engine + "cc." + " " + "Vehicle is " + colour
+				+ " " + "colour" + " " + "and has" + " " + doorNumber + " doors." + " "
 				+ "Total Bill for this vehicle is " + price + "per day.";
 	}
 
