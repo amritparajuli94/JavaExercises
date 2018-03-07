@@ -34,4 +34,5 @@ public class GameData {
 		System.out.println("Total wins to the AI is " + (int) aiWinCounter);
 		System.out.println("Total draws in the game are " + (int) drawCounter);
 	}
+
 }
